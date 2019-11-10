@@ -1,5 +1,5 @@
 {
-  "name": "BravoEcho",
+  "name": "bravoecho",
   "version": "0.0.1",
   "description": "Bravo Echo Web Development",
   "main": "server.js",
@@ -13,7 +13,6 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "proxy": "http://localhost:4000",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brianevans99/BravoEcho.git"
