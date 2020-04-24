@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import logo from "../../assets/images/BRAVO_ECHO_COLOR_TRANSPARENT-min.png";
-
+import ('../../assets/javascript/app');
 export default class Header extends Component {
 
     render() {

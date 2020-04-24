@@ -1,0 +1,40 @@
+.test {
+    border: 1px dashed red;
+  }
+  #logo-color {
+    position: relative;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    max-height: 300px;
+  }
+  #logo-bw {
+    position: absolute;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    max-height: 300px;
+  }
+  #seo {
+    visibility: hidden;
+  }
+  #marketing {
+    visibility: hidden;
+  }
+  #presence {
+    visibility: hidden;
+  }
+  #scroll-span {
+      width: 100px;
+  }
+  #scroll-span > h1 {
+    position:absolute;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+      span > h1 {
+          font-size: 1.6rem;
+      }
+      #logo-color, #logo-bw {
+          max-height: 200px;
+      }
+  }
