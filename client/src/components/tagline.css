@@ -1,0 +1,30 @@
+#scroll-span {
+  width: 160px;
+}
+#scroll-span > h1 {
+  position: absolute;
+}
+
+#seo {
+  visibility: hidden;
+}
+#marketing {
+  visibility: hidden;
+}
+#presence {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  span > h1 {
+    font-size: 1.6rem;
+  }
+  #logo-color,
+  #logo-bw {
+    max-height: 200px;
+    margin-bottom: 10px;
+  }
+  #scroll-span {
+    width: 100px;
+  }
+}

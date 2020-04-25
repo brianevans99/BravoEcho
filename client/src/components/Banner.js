@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-// import Logos from './Logos'
+import Logos from './Logos'
 import TagLine from './TagLine'
 
 export default class Banner extends Component {
@@ -9,7 +9,7 @@ export default class Banner extends Component {
     return (
       <Container fluid>
         <Row>
-          {/* <Logos /> */}
+          <Logos />
           <TagLine />
         </Row>
       </Container>
