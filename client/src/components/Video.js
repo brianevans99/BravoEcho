@@ -1,7 +1,6 @@
 import React from 'react'
 import video from '../assets/videos/BlurredVideoScriptsBeingTyped.mp4'
 import styled from 'styled-components'
-import Banner from './Banner'
 
 const Styles = styled.div`
   .showcase {
@@ -54,13 +53,11 @@ export default function Video() {
       <section class='showcase'>
         <div class='video-container'>
           {' '}
-          <video autoPlay loop muted>
+          <video autoPlay={false} loop={true} muted={true}>
             <source src={video} type='video/mp4' />
           </video>
         </div>
-        <div class='content'>
-          <Banner />
-        </div>
+        <div class='content'></div>
       </section>
     </Styles>
   )

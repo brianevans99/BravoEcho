@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
-import Video from '../components/Video'
+import Banner from '../components/Banner'
+import styled from 'styled-components'
+
+const Styles = styled.div``
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        <Video />
-      </div>
+      <Styles>
+        <Banner />
+      </Styles>
     )
   }
 }
