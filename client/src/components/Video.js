@@ -19,7 +19,7 @@ export default function Video() {
     <section class='showcase'>
       <Styles>
         <div class='video-container'>
-          <video autoPlay={false} loop={true} muted={true}>
+          <video autoPlay={true} loop={true} muted={true}>
             <source src={video} type='video/mp4' />
           </video>
         </div>
