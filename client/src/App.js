@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div>
       <Home />
+      <Footer />
     </div>
   )
 }
