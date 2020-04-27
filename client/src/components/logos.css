@@ -13,7 +13,7 @@
   animation-delay: 1s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #logoColor,
   #logoBW {
     max-height: 200px;

@@ -9,17 +9,17 @@ export default class Logos extends Component {
   render() {
     return (
       <Fragment>
-        <Col xl={2} className='d-none d-xl-block'></Col>
-        <Col xl={3} lg={5} className='logos text-center'>
+        <Col xl={1} className='d-none d-xl-block'></Col>
+        <Col xl={4} lg={5} className='logos text-center'>
           <img
             src={logoBW}
-            className='img-fluid animated fadeOut'
+            className='animated fadeOut'
             alt='Bravo Echo b/w logo'
             id='logoBW'
           />
           <img
             src={logoColor}
-            className='img-fluid animated fadeIn'
+            className='animated fadeIn'
             alt='Bravo Echo color logo'
             id='logoColor'
           />
