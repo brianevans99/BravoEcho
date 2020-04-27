@@ -46,8 +46,16 @@ document.addEventListener('DOMContentLoaded', function () {
 export default class TagLine extends Component {
   render() {
     return (
-      <Col xl={6} lg={7} className='d-flex flex-column justify-content-center'>
-        <div className='d-flex flex-row justify-content-center justify-content-lg-start'>
+      <Col
+        xl={6}
+        lg={7}
+        className='d-flex flex-column justify-content-center'
+        id='column'
+      >
+        <div
+          className='d-flex flex-row justify-content-center justify-content-lg-start'
+          id='pad'
+        >
           <span className='d-flex justify-content-end'>
             <h1>Affordable Web</h1>
           </span>

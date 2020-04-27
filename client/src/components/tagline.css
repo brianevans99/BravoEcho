@@ -14,8 +14,11 @@
 #presence {
   visibility: hidden;
 }
+#column {
+  padding: 0;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   span > h1 {
     font-size: 1.6rem;
   }
@@ -26,5 +29,13 @@
   }
   #scroll-span {
     width: 100px;
+  }
+  #pad {
+    margin-left: -2%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #pad {
+    margin-left: -5%;
   }
 }
