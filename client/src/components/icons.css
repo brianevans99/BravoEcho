@@ -1,9 +1,0 @@
-.iconDiv {
-  display: flex;
-  justify-content: space-around;
-  padding: 22px;
-  flex-wrap: nowrap;
-}
-.fa-icons {
-  font-size: 2.5em;
-}

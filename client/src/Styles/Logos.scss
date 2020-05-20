@@ -1,0 +1,16 @@
+.logos img {
+  max-height: 300px;
+}
+#logoBW {
+  position: absolute;
+}
+#logoColor,
+#logoBW {
+  animation-duration: 3s;
+  animation-delay: 1s;
+
+  @media screen and (max-width: 992px) {
+    max-height: 150px;
+    margin-bottom: 10px;
+  }
+}
