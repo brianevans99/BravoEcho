@@ -1,4 +1,8 @@
 .navbar {
   position: fixed;
   z-index: 100;
+  overflow: hidden;
+  span {
+    display: flex;
+  }
 }

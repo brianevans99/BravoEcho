@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Col from 'react-bootstrap/Col'
 import '../../Styles/TagLine.scss'
 
@@ -40,44 +40,40 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 })
 
-export default class TagLine extends Component {
-  render() {
-    return (
-      <Col
-        xl={6}
-        lg={7}
-        className='d-flex flex-column justify-content-center'
-        id='column'
+export default function TagLine(props) {
+  return (
+    <Col
+      xl={6}
+      lg={7}
+      className='d-flex flex-column justify-content-center'
+      id='column'
+    >
+      <div
+        className='d-flex flex-row justify-content-center justify-content-lg-start'
+        id='pad'
       >
-        <div
-          className='d-flex flex-row justify-content-center justify-content-lg-start'
-          id='pad'
-        >
-          <span className='d-flex justify-content-end'>
-            <h1>Affordable Web</h1>
-          </span>
-          <span>&nbsp;&nbsp;</span>
-          <span className='d-flex justify-content-start' id='scroll-span'>
-            <h1 className='animated fadeIn' id='design'>
-              Design
-            </h1>
-            <h1 className='animated' id='seo'>
-              SEO
-            </h1>
-            <h1 className='animated' id='marketing'>
-              Marketing
-            </h1>
-            <h1 className='animated' id='presence'>
-              Presence
-            </h1>
-          </span>
-        </div>
-        <div className='d-flex flex-row justify-content-center justify-content-lg-start'>
-          <h5 className='text-center'>
-            for Small Businesses and Organizations
-          </h5>
-        </div>
-      </Col>
-    )
-  }
+        <span className='d-flex justify-content-end'>
+          <h1>{props.leadText}</h1>
+        </span>
+        <span>&nbsp;&nbsp;</span>
+        <span className='d-flex justify-content-start' id='scroll-span'>
+          <h1 className='animated fadeIn' id='design'>
+            {props.text1}
+          </h1>
+          <h1 className='animated' id='seo'>
+            {props.text2}
+          </h1>
+          <h1 className='animated' id='marketing'>
+            {props.text3}
+          </h1>
+          <h1 className='animated' id='presence'>
+            {props.text4}
+          </h1>
+        </span>
+      </div>
+      <div className='d-flex flex-row justify-content-center justify-content-lg-start'>
+        <h5 className='text-center'>{props.endText}</h5>
+      </div>
+    </Col>
+  )
 }

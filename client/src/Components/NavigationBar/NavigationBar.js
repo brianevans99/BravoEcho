@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, Image } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
+import Title from '../../Components/Title/Title'
 import logo from '../../Assets/Images/crown.png'
 import '../../Styles/NavigationBar.scss'
 
@@ -9,14 +10,16 @@ export default class NavigationBar extends Component {
     return (
       <Navbar collapseOnSelect expand='sm' variant='dark'>
         <Navbar.Brand>
-          <Image
-            src={logo}
-            width={80}
-            className='mr-3 ml-3'
-            alt='Bravo Echo Web Development'
-            fluid
-          />
-          Bravo Echo Web Development
+          <span>
+            <Image
+              src={logo}
+              width={80}
+              className='mr-3 ml-3'
+              alt='Bravo Echo Web Development'
+              fluid
+            />
+            <Title />
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='response-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>

@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavigationBar from './Components/NavigationBar/NavigationBar'
 import Home from './Pages/Home/Home'
@@ -12,7 +13,7 @@ import './App.scss'
 
 function App() {
   return (
-    <Fragment>
+    <Container fluid>
       <Router>
         <NavigationBar />
         <Switch>
@@ -24,7 +25,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </Router>
-    </Fragment>
+    </Container>
   )
 }
 
