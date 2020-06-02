@@ -20,9 +20,9 @@ export default class About extends Component {
         <Styles>
           <div className='wrapper' id='design'></div>
           <Container fluid>
-            <Row className='d-flex flex-row align-items-center'>
+            <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center' md={6}>
-                <h2 className='animated fadeIn'>
+                <h2 className='py-3 animated fadeIn'>
                   Website presence customized for you.
                 </h2>
               </Col>

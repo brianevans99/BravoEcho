@@ -30,12 +30,14 @@ export default class NavigationBar extends Component {
               className=''
               alt='Bravo Echo Web Development logo'
             />{' '}
-            <Title className='.d-none .d-xl-block' />
+            <span className='d-none d-md-block'>
+              <Title />
+            </span>
           </Styles>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='response-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav>
+          <Nav className='d-flex flex-wrap'>
             <LinkContainer to='/'>
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>

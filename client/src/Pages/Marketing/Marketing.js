@@ -28,9 +28,9 @@ export default class Marketing extends Component {
         <Styles>
           <div className='wrapper' id='design'></div>
           <Container fluid>
-            <Row className='d-flex flex-row align-items-center'>
+            <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center top' md={6}>
-                <h2 className='animated fadeIn'>
+                <h2 className='animated fadeIn text-center'>
                   Eye-catching media that gets noticed.
                 </h2>
               </Col>
@@ -47,13 +47,19 @@ export default class Marketing extends Component {
             </Row>
             <Row>
               <Col className='' md={4}>
-                <Player playsInline poster={videoPoster1} src={video1} />
+                <div className='my-3'>
+                  <Player playsInline poster={videoPoster1} src={video1} />
+                </div>
               </Col>
               <Col className='' md={4}>
-                <Player playsInline poster={videoPoster2} src={video2} />
+                <div className='my-3'>
+                  <Player playsInline poster={videoPoster2} src={video2} />
+                </div>
               </Col>
               <Col className='' md={4}>
-                <Player playsInline poster={videoPoster3} src={video3} />
+                <div className='my-3'>
+                  <Player playsInline poster={videoPoster3} src={video3} />
+                </div>
               </Col>
             </Row>
           </Container>

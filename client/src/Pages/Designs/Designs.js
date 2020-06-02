@@ -20,11 +20,14 @@ export default class Designs extends Component {
         <Styles>
           <div className='wrapper' id='design'></div>
           <Container fluid>
-            <Row className='d-flex flex-row align-items-center'>
+            <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center' md={6}>
-                <h2 className='animated fadeIn'>Professional Design.</h2>
+                <h2 className='py-3 animated fadeIn'>Professional Designs.</h2>
               </Col>
-              <Col className='d-flex justify-content-center' md={6}>
+              <Col
+                className='d-flex justify-content-center text-justify'
+                md={6}
+              >
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
