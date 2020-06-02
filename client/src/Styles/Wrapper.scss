@@ -1,0 +1,11 @@
+.wrapper {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black url('../assets/images/asteroidsCompressed.jpg') no-repeat
+    center center/cover;
+}

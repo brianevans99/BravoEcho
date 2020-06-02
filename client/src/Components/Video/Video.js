@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import { Player } from 'video-react'
-import image from '../../Assets/Images/asteroidsCompressed.jpg'
-import video from '../../Assets/Videos/asteroidsCompressed.mp4'
+import image from '../../assets/images/asteroidsCompressed.jpg'
+import video from '../../assets/videos/asteroidsCompressed.mp4'
 import Banner from '../Banner/Banner'
 import '../../Styles/Video.scss'
 import styled from 'styled-components'
@@ -22,7 +21,9 @@ export default function Video() {
     <section className='showcase'>
       <Styles>
         <div className='video-container'>
-          {<Player autoPlay loop muted src={video} /> || <Image src={image} />}
+          {<video autoPlay playsInline loop muted src={video} /> || (
+            <Image src={image} />
+          )}
         </div>
       </Styles>
       <Banner />
