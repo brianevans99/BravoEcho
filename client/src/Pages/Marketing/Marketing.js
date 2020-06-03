@@ -17,7 +17,7 @@ const Styles = styled.div`
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
 `
 
@@ -29,36 +29,54 @@ export default class Marketing extends Component {
           <div className='wrapper' id='design'></div>
           <Container fluid>
             <Row className='py-3 d-flex flex-row align-items-center'>
-              <Col className='d-flex justify-content-center top' md={6}>
-                <h2 className='animated fadeIn text-center'>
+              <Col className='d-flex justify-content-center' lg={6}>
+                <h2 className='py-3 animated fadeIn text-center'>
                   Eye-catching media that gets noticed.
                 </h2>
               </Col>
-              <Col className='d-flex justify-content-center' md={6}>
+              <Col className='text-justify' lg={6}>
                 <p>
-                  Video marketing is using videos to promote and market your
-                  product or service, increase engagement on your digital and
-                  social channels, educate your consumers and customers, and
-                  reach your audience with a new medium. ... 2018 and 2019
-                  transformed video from a singular marketing tactic to an
-                  entire business strategy.
+                  Your business may be the best option for consumers in your
+                  prospective market, but if you don't get noticed then it may
+                  not matter. Video marketing is a rapidly growing business
+                  strategy to promote and market your product or service,
+                  increase engagement with your customers and educate them on
+                  what you have to offer.
+                </p>
+                <p>
+                  Bravo Echo Web Development employs the powers of animated
+                  logos and social media advertising for building brand
+                  awareness of your business.
                 </p>
               </Col>
             </Row>
             <Row>
               <Col className='' md={4}>
-                <div className='my-3'>
+                <div className='my-3 text-justify'>
                   <Player playsInline poster={videoPoster1} src={video1} />
+                  Add an animated logo to your brand for a professional
+                  connection with your target audience. The combination of
+                  imagery, sound and motion is many times more effective than a
+                  static image at making your business or organization more
+                  memorable.
                 </div>
               </Col>
               <Col className='' md={4}>
                 <div className='my-3'>
                   <Player playsInline poster={videoPoster2} src={video2} />
+                  Social media advertising is a very effective way to nurture
+                  leads and create prospective customers for your business. This
+                  advertising platform allows you to engage with and attract
+                  consumers by driving them straight to your website.
                 </div>
               </Col>
               <Col className='' md={4}>
                 <div className='my-3'>
                   <Player playsInline poster={videoPoster3} src={video3} />
+                  Brand awareness is the level of consumer consciousness of a
+                  company. It measures a potential customer's ability to not
+                  only recognize a brand image, but to also associate it with a
+                  certain company's product or service.
                 </div>
               </Col>
             </Row>

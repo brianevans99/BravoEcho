@@ -11,7 +11,7 @@ const Styles = styled.div`
   width: 100vw;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   .packages {
     display: flex;
@@ -32,19 +32,15 @@ export default function Pricing() {
         <Container fluid>
           <Row className='py-3 d-flex flex-row align-items-center'>
             <Col className='d-flex justify-content-center' md={6}>
-              <h2 className='animated fadeIn text-center'>
-                Affordable web services for the small business owner.
+              <h2 className='py-3 animated fadeIn text-center'>
+                Affordable web services.
               </h2>
             </Col>
             <Col className='d-flex justify-content-center' md={6}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Show pricing for web services. Show pricing for marketing
+                services. Show pricing for other items like temporary one-page
+                designs for announcements, email marketing, etc.
               </p>
             </Col>
           </Row>
