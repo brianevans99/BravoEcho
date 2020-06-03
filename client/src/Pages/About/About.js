@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
+import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
 
@@ -100,6 +101,7 @@ export default class About extends Component {
                   </Card.Body>
                 </Card>
               </Col>
+              <Footer />
             </Row>
           </Container>
         </Styles>

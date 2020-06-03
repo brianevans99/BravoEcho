@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Player } from 'video-react'
+import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import '../../Styles/Marketing.scss'
 import videoPoster1 from '../../assets/images/videoPoster_logoAnimations.png'
@@ -79,6 +80,7 @@ export default class Marketing extends Component {
                   certain company's product or service.
                 </div>
               </Col>
+              <Footer />
             </Row>
           </Container>
         </Styles>

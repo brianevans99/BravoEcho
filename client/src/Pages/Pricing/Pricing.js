@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
 import Package from '../../Components/Package/Package'
@@ -44,7 +45,8 @@ export default function Pricing() {
               </p>
             </Col>
           </Row>
-          <div className='packages'>{packageItems}</div>
+          {/* <div className='packages'>{packageItems}</div> */}
+          <Footer />
         </Container>
       </Styles>
     </Fragment>

@@ -11,7 +11,7 @@ const rowStyle = {
 export default class Footer extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid className=''>
         <Row style={rowStyle}>
           <Col md={6}>
             <h5>Copyright 2020 | Bravo Echo Web Development</h5>

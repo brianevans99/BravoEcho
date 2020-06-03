@@ -13,7 +13,8 @@
   color: $white;
 }
 body {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  // background: rgba(0, 0, 0, 0.95) url('./assets/images/asteroidsCompressed.jpg');
 }
 .row {
   margin-top: 70px;

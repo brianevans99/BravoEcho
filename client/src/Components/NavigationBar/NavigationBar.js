@@ -17,6 +17,9 @@ const Styles = styled.div`
   h1 {
     margin: 0;
   }
+  .open {
+    background-color: black;
+  }
 `
 
 export default class NavigationBar extends Component {
