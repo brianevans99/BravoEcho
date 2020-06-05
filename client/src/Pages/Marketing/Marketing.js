@@ -80,7 +80,6 @@ export default class Marketing extends Component {
                   certain company's product or service.
                 </div>
               </Col>
-              <Footer />
             </Row>
           </Container>
         </Styles>

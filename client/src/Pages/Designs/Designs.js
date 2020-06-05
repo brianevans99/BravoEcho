@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Row, Col, Image, Card } from 'react-bootstrap'
 import '../../Styles/Wrapper.scss'
-import resortHotel from '../../assets/images/resortHotel.jpg'
 import Footer from '../../Components/Footer/Footer'
 import styled from 'styled-components'
 
@@ -40,21 +39,7 @@ export default class Designs extends Component {
                 </p>
               </Col>
             </Row>
-            <Row className='d-flex justify-content-center'>
-              <Col lg={9}>
-                <Card className='bg-dark text-white'>
-                  <Card.Img variant='top' src={resortHotel} />
-                  <Card.Body>
-                    <Card.Title>Resort Hotel Example</Card.Title>
-                    <Card.Text>
-                      Basic design with attractive landing page and minimalist
-                      content design.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Footer />
-            </Row>
+            <Row className='d-flex justify-content-center'></Row>
           </Container>
         </Styles>
       </Fragment>

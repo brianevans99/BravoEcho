@@ -15,17 +15,17 @@ const Styles = styled.div`
   position: absolute;
 `
 
-export default class About extends Component {
+export default class Testimonials extends Component {
   render() {
     return (
       <Fragment>
-        <div className='wrapper' id='design'></div>
         <Styles>
+          <div className='wrapper' id='design'></div>
           <Container fluid>
             <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center' md={6}>
                 <h2 className='py-3 animated fadeIn text-center'>
-                  Website presence customized for you.
+                  Making & keeping business owners happy.
                 </h2>
               </Col>
               <Col className='d-flex justify-content-center' md={6}>

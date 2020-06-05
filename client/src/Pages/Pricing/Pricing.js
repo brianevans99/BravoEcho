@@ -28,8 +28,8 @@ export default function Pricing() {
   ))
   return (
     <Fragment>
+      <div className='wrapper' id='design'></div>
       <Styles>
-        <div className='wrapper' id='design'></div>
         <Container fluid>
           <Row className='py-3 d-flex flex-row align-items-center'>
             <Col className='d-flex justify-content-center' md={6}>
@@ -38,15 +38,16 @@ export default function Pricing() {
               </h2>
             </Col>
             <Col className='d-flex justify-content-center' md={6}>
-              <p>
-                Show pricing for web services. Show pricing for marketing
-                services. Show pricing for other items like temporary one-page
-                designs for announcements, email marketing, etc.
-              </p>
+              <h3>
+                <i>
+                  Show pricing for web services. Show pricing for marketing
+                  services. Show pricing for other items like temporary one-page
+                  designs for announcements, email marketing, etc.
+                </i>
+              </h3>
             </Col>
           </Row>
           {/* <div className='packages'>{packageItems}</div> */}
-          <Footer />
         </Container>
       </Styles>
     </Fragment>
