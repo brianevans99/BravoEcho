@@ -7,7 +7,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Designs from './Pages/Designs/Designs'
 import Marketing from './Pages/Marketing/Marketing'
-import Pricing from './Pages/Pricing/Pricing'
+// import Pricing from './Pages/Pricing/Pricing'
 import Contact from './Pages/Contact/Contact'
 import NotFound from './Pages/NotFound/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -24,7 +24,7 @@ function App() {
           {/* <Route path='/testimonials' component={Testimonials} /> */}
           <Route path='/designs' component={Designs} />
           <Route path='/marketing' component={Marketing} />
-          <Route path='/pricing' component={Pricing} />
+          {/* <Route path='/pricing' component={Pricing} /> */}
           <Route path='/contact' component={Contact} />
           <Route component={NotFound} />
         </Switch>
