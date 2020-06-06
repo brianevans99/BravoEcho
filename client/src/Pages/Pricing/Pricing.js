@@ -38,13 +38,13 @@ export default function Pricing() {
               </h2>
             </Col>
             <Col className='d-flex justify-content-center' md={6}>
-              <h3>
+              <h4>
                 <i>
-                  Show pricing for web services. Show pricing for marketing
+                  [Show pricing for web services. Show pricing for marketing
                   services. Show pricing for other items like temporary one-page
-                  designs for announcements, email marketing, etc.
+                  designs for announcements, email marketing, etc.]
                 </i>
-              </h3>
+              </h4>
             </Col>
           </Row>
           {/* <div className='packages'>{packageItems}</div> */}

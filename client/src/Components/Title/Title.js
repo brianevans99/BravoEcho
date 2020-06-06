@@ -1,5 +1,10 @@
 import React from 'react'
 
 export default function Title() {
-  return <h1>Bravo Echo Web Development</h1>
+  return (
+    <div>
+      <h1>Bravo Echo</h1>
+      <h5>Web Development</h5>
+    </div>
+  )
 }

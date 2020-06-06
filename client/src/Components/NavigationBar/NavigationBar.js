@@ -10,15 +10,10 @@ const Styles = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  word-wrap: break-word;
   img {
     height: 50px;
     margin: 0 10px;
-  }
-  h1 {
-    margin: 0;
-  }
-  .open {
-    background-color: black;
   }
 `
 
@@ -40,7 +35,7 @@ export default class NavigationBar extends Component {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='response-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='d-flex flex-wrap'>
+          <Nav className='d-flex flex-wrap text-center'>
             <LinkContainer to='/'>
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>

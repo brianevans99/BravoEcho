@@ -47,7 +47,7 @@ export default class Marketing extends Component {
                 <p>
                   Bravo Echo Web Development employs the powers of animated
                   logos and social media advertising for building brand
-                  awareness of your business.
+                  awareness.
                 </p>
               </Col>
             </Row>
