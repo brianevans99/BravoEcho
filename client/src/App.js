@@ -24,7 +24,7 @@ function App() {
           {/* <Route path='/testimonials' component={Testimonials} /> */}
           {/* <Route path='/designs' component={Designs} /> */}
           <Route path='/marketing' component={Marketing} />
-          {/* <Route path='/pricing' component={Pricing} /> */}
+          <Route path='/pricing' component={Pricing} />
           <Route path='/contact' component={Contact} />
           <Route component={NotFound} />
         </Switch>

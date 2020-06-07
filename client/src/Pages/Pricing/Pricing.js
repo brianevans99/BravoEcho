@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
 import Package from '../../Components/Package/Package'
-import packageData from '../../Data/packageData'
+import marketingData from '../../Data/marketingData'
 
 const Styles = styled.div`
   content: '';
@@ -23,7 +23,7 @@ const Styles = styled.div`
 `
 
 export default function Pricing() {
-  const packageItems = packageData.map((item) => (
+  const marketingItems = marketingData.map((item) => (
     <Package key={item.id} item={item} />
   ))
   return (
@@ -39,15 +39,14 @@ export default function Pricing() {
             </Col>
             <Col className='d-flex justify-content-center' md={6}>
               <h4>
-                <i>
-                  [Show pricing for web services. Show pricing for marketing
-                  services. Show pricing for other items like temporary one-page
-                  designs for announcements, email marketing, etc.]
-                </i>
+                <i>[Show pricing for web services.]</i>
               </h4>
             </Col>
           </Row>
-          <div className='packages'>{packageItems}</div>
+          <div className='d-flex justify-content-center'>
+            Marketing packages:
+          </div>
+          <div className='packages'>{marketingItems}</div>
         </Container>
       </Styles>
     </Fragment>
