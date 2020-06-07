@@ -22,9 +22,9 @@ function App() {
           <Route exact={true} path='/' component={Home} />
           <Route path='/about' component={About} />
           {/* <Route path='/testimonials' component={Testimonials} /> */}
-          <Route path='/designs' component={Designs} />
+          {/* <Route path='/designs' component={Designs} /> */}
           <Route path='/marketing' component={Marketing} />
-          <Route path='/pricing' component={Pricing} />
+          {/* <Route path='/pricing' component={Pricing} /> */}
           <Route path='/contact' component={Contact} />
           <Route component={NotFound} />
         </Switch>

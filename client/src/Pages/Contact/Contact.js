@@ -29,9 +29,9 @@ export default class Contact extends Component {
               </Col>
               <Col className='d-flex justify-content-center' md={6}>
                 <p>
-                  Contact Bravo Echo for a free phone or in-person consultation.
-                  Fill out the form below or call{' '}
-                  <strong>(404) 985-7506</strong>.
+                  Contact Bravo Echo Web Development for a complimentary
+                  consultation. Fill out the form below or call{' '}
+                  <strong>(770) 818-6305</strong>.
                 </p>
               </Col>
             </Row>
