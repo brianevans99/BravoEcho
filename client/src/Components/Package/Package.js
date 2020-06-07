@@ -4,8 +4,8 @@ import { BsCheckCircle } from 'react-icons/bs'
 
 const Styles = styled.div`
   background: rgba(0, 0, 0, 0.5);
-  min-width: 400px;
-  min-height: 600px;
+  min-width: 250px;
+  min-height: 200px;
   border: 2px solid white;
   border-radius: 5px;
   padding: 30px;

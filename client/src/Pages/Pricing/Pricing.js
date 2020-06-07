@@ -9,7 +9,7 @@ import packageData from '../../Data/packageData'
 const Styles = styled.div`
   content: '';
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -47,7 +47,7 @@ export default function Pricing() {
               </h4>
             </Col>
           </Row>
-          {/* <div className='packages'>{packageItems}</div> */}
+          <div className='packages'>{packageItems}</div>
         </Container>
       </Styles>
     </Fragment>
