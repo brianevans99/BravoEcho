@@ -10,14 +10,19 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  color: $white;
 }
 body {
   background-color: rgba(0, 0, 0, 0.95);
+  color: $white;
   // background: rgba(0, 0, 0, 0.95) url('./assets/images/asteroidsCompressed.jpg');
 }
 .row {
   margin-top: 70px;
+}
+.line {
+  border: 1px solid white;
+  width: 100%;
+  margin: 0;
 }
 /*!
  * animate.css -https://daneden.github.io/animate.css/

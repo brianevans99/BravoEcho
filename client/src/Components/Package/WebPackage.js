@@ -18,6 +18,7 @@ export default function WebPackage(props) {
       <div className='d-flex flex-column align-items-center'>
         <h4>{`${props.item.title}`}</h4>
         <p>{`$${props.item.monthlyCost}/mo.`}</p>
+        <hr className='line' />
         <p>{`$${props.item.totalCost}`}</p>
       </div>
     </Styles>
