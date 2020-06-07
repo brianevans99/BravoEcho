@@ -3,8 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
-import Package from '../../Components/Package/Package'
+import MktPackage from '../../Components/Package/MktPackage'
+import WebPackage from '../../Components/Package/WebPackage'
 import marketingData from '../../Data/marketingData'
+import webData from '../../Data/webData'
 
 const Styles = styled.div`
   content: '';
@@ -24,7 +26,10 @@ const Styles = styled.div`
 
 export default function Pricing() {
   const marketingItems = marketingData.map((item) => (
-    <Package key={item.id} item={item} />
+    <MktPackage key={item.id} item={item} />
+  ))
+  const webItems = webData.map((item) => (
+    <WebPackage key={item.id} item={item} />
   ))
   return (
     <Fragment>
@@ -47,6 +52,10 @@ export default function Pricing() {
             Marketing packages:
           </div>
           <div className='packages'>{marketingItems}</div>
+          <div className='d-flex justify-content-center'>
+            Web design packages:
+          </div>
+          <div className='packages'>{webItems}</div>
         </Container>
       </Styles>
     </Fragment>

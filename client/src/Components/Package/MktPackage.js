@@ -12,7 +12,7 @@ const Styles = styled.div`
   text-transform: capitalize;
 `
 
-export default function Package(props) {
+export default function MktPackage(props) {
   return (
     <Styles>
       <div className='d-flex flex-column align-items-center'>
