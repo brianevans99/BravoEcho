@@ -14,9 +14,15 @@ const theme = {
 const Styles = styled.div`
   background-color: ${theme.black};
   min-width: 250px;
-  border: 2px solid white;
+  border: 2px solid ${theme.black};
   border-radius: 4px;
   margin: 4px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  :hover {
+    transform: scale(1.05);
+    border: 2px solid ${theme.white};
+  }
 
   .top {
     background-color: ${theme.blue};

@@ -42,20 +42,20 @@ export default function Pricing() {
                 Affordable web services.
               </h2>
             </Col>
-            <Col className='d-flex justify-content-center' md={6}>
+            {/* <Col className='d-flex justify-content-center' md={6}>
               <h4>
                 <i>[Show pricing for web services.]</i>
               </h4>
-            </Col>
+            </Col> */}
           </Row>
           <div className='d-flex justify-content-center'>
             Marketing packages:
           </div>
           <div className='packages'>{marketingItems}</div>
-          <div className='d-flex justify-content-center'>
+          {/* <div className='d-flex justify-content-center'>
             Web design packages:
           </div>
-          <div className='packages'>{webItems}</div>
+          <div className='packages'>{webItems}</div> */}
         </Container>
       </Styles>
     </Fragment>
