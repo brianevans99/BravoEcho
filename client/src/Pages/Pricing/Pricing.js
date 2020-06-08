@@ -52,10 +52,10 @@ export default function Pricing() {
             Marketing packages:
           </div>
           <div className='packages'>{marketingItems}</div>
-          {/* <div className='d-flex justify-content-center'>
+          <div className='d-flex justify-content-center'>
             Web design packages:
           </div>
-          <div className='packages'>{webItems}</div> */}
+          <div className='packages'>{webItems}</div>
         </Container>
       </Styles>
     </Fragment>

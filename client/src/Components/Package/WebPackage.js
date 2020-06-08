@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { BsCheckCircle } from 'react-icons/bs'
+import numeral from 'numeral'
 
 const theme = {
   blue: '#000064',
@@ -9,6 +10,7 @@ const theme = {
   red: '#e91313',
   white: '#d6d6d6',
   black: '#020202',
+  gray: '#808080',
 }
 
 const Styles = styled.div`
@@ -37,6 +39,9 @@ const Styles = styled.div`
     span h1 + span {
       vertical-align: text-bottom;
     }
+    .total {
+      color: ${theme.gray};
+    }
   }
   .views {
     min-height: 50px;
@@ -62,34 +67,23 @@ export default function WebPackage(props) {
         <h4 className='title'>{`${props.item.title}`}</h4>
         <span className='d-flex flex-row'>
           <p>$</p>
-          <h1>{props.item.cost}</h1>
-
+          <h1>{props.item.monthlyCost}</h1>
           <p>/mo.</p>
         </span>
+        <small className='total'>
+          or {numeral(props.item.totalCost).format('$ 0,0[.]00')} total
+        </small>
       </div>
       <div className='views d-flex flex-row align-items-center justify-content-center'>
-        <h5>{props.item.minViews} views per day</h5>
+        <h5>{props.item.function} </h5>
       </div>
       <div className='list d-flex flex-column align-items-center'>
         <ul>
-          <li>
-            <BsCheckCircle /> {props.item.video} video ad
-            {props.item.video > 1 && 's'}
-          </li>
-          {props.item.image > 0 && (
+          {props.item.includes.map((includedOptions) => (
             <li>
-              <BsCheckCircle /> {props.item.image} static image ad
-              {props.item.image > 1 && 's'}
+              <BsCheckCircle /> {includedOptions}
             </li>
-          )}
-          {props.item.logoAnimation && (
-            <li>
-              <BsCheckCircle /> animated logo
-            </li>
-          )}
-          <li>
-            <BsCheckCircle /> {props.item.report} report
-          </li>
+          ))}
         </ul>
       </div>
     </Styles>
