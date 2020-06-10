@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
-import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
 

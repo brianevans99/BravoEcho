@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import MyForm from '../../Components/MyForm/MyForm'
 import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'

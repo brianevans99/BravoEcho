@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from 'react-router-bootstrap'
 import Title from '../../Components/Title/Title'
 import crown from '../../assets/images/crown.png'

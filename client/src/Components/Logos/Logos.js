@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import { Col, Image } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 import logoColor from '../../assets/images/BRAVO_ECHO_COLOR_TRANSPARENT-min.png'
 import logoBW from '../../assets/images/BRAVO_ECHO_WHITE_OUTLINE-min.png'
 import '../../Styles/Logos.scss'
