@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavigationBar from './Components/NavigationBar/NavigationBar'
 import Home from './Pages/Home/Home'
-// import Testimonials from './Pages/Testimonials/Testimonials'
 import About from './Pages/About/About'
 import Designs from './Pages/Designs/Designs'
 import Marketing from './Pages/Marketing/Marketing'
@@ -21,8 +20,7 @@ function App() {
         <Switch>
           <Route exact={true} path='/' component={Home} />
           <Route path='/about' component={About} />
-          {/* <Route path='/testimonials' component={Testimonials} /> */}
-          {/* <Route path='/designs' component={Designs} /> */}
+          <Route path='/designs' component={Designs} />
           <Route path='/marketing' component={Marketing} />
           <Route path='/pricing' component={Pricing} />
           <Route path='/contact' component={Contact} />

@@ -63,7 +63,7 @@ export default class Marketing extends Component {
                 </div>
               </Col>
               <Col className='' md={4}>
-                <div className='my-3'>
+                <div className='my-3 text-justify'>
                   <Player playsInline poster={videoPoster2} src={video2} />
                   Social media advertising is a very effective way to nurture
                   leads and create prospective customers for your business. This
@@ -72,7 +72,7 @@ export default class Marketing extends Component {
                 </div>
               </Col>
               <Col className='' md={4}>
-                <div className='my-3'>
+                <div className='my-3 text-justify'>
                   <Player playsInline poster={videoPoster3} src={video3} />
                   Brand awareness is the level of consumer consciousness of a
                   company. It measures a potential customer's ability to not
@@ -82,6 +82,7 @@ export default class Marketing extends Component {
               </Col>
             </Row>
           </Container>
+          <Footer />
         </Styles>
       </Fragment>
     )

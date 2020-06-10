@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import MyForm from '../../Components/MyForm/MyForm'
+import Footer from '../../Components/Footer/Footer'
 import '../../Styles/Wrapper.scss'
 import styled from 'styled-components'
 
@@ -41,6 +42,7 @@ export default class Contact extends Component {
               </Col>
             </Row>
           </Container>
+          <Footer />
         </Styles>
       </Fragment>
     )

@@ -67,11 +67,12 @@ export default function WebPackage(props) {
         <h4 className='title'>{`${props.item.title}`}</h4>
         <span className='d-flex flex-row'>
           <p>$</p>
-          <h1>{props.item.monthlyCost}</h1>
+          <h1>{numeral(props.item.monthlyCost).format('0,0[.]00')}</h1>
           <p>/mo.</p>
         </span>
-        <small className='total'>
-          or {numeral(props.item.totalCost).format('$ 0,0[.]00')} total
+        <small className='total d-flex flex-column align-items-center'>
+          <div>for 1st year or</div>
+          <div>{numeral(props.item.totalCost).format('$ 0,0[.]00')} total</div>
         </small>
       </div>
       <div className='views d-flex flex-row align-items-center justify-content-center'>

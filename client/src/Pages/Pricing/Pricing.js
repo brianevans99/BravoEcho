@@ -42,21 +42,25 @@ export default function Pricing() {
                 Affordable web services.
               </h2>
             </Col>
-            {/* <Col className='d-flex justify-content-center' md={6}>
-              <h4>
-                <i>[Show pricing for web services.]</i>
-              </h4>
-            </Col> */}
+            <Col className='d-flex justify-content-center' md={6}>
+              <p>
+                Packages for web design and marketing services are shown below.
+                For a more customized plan please reach out to us through our
+                Contact Form.
+              </p>
+            </Col>
           </Row>
           <div className='d-flex justify-content-center'>
-            Marketing packages:
+            <h5>Marketing packages:</h5>
           </div>
           <div className='packages'>{marketingItems}</div>
+          <hr className='line' />
           <div className='d-flex justify-content-center'>
-            Web design packages:
+            <h5>Web design packages:</h5>
           </div>
           <div className='packages'>{webItems}</div>
         </Container>
+        <Footer />
       </Styles>
     </Fragment>
   )

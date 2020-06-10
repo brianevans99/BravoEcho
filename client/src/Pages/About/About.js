@@ -101,6 +101,7 @@ export default class About extends Component {
                   </Card.Body>
                 </Card>
               </Col>
+              <Footer />
             </Row>
           </Container>
         </Styles>

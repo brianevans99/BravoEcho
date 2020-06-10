@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import logoFooter from '../../assets/images/BRAVO_ECHO_Footer.png'
 
 const rowStyle = {
   padding: '10px',
   backgroundColor: '#000',
-  color: '#fff',
+  color: '#d6d6d6',
   textAlign: 'center',
+}
+const footerImg = {
+  maxHeight: '100px',
 }
 
 export default class Footer extends Component {
@@ -13,11 +17,27 @@ export default class Footer extends Component {
     return (
       <Container fluid className=''>
         <Row style={rowStyle}>
-          <Col md={6}>
+          <Col
+            md={4}
+            className='d-flex flex-column justify-content-center align-items-center'
+          >
+            <Image
+              src={logoFooter}
+              style={footerImg}
+              alt='Bravo Echo color logo'
+            />
+          </Col>
+          <Col
+            md={4}
+            className='d-flex flex-column justify-content-center align-items-center'
+          >
             <h5>Copyright 2020 | Bravo Echo Web Development</h5>
           </Col>
-          <Col md={6}>
-            <h5>Contact: 404.985.7506</h5>
+          <Col
+            md={4}
+            className='d-flex flex-column justify-content-center align-items-center'
+          >
+            <h5>Contact: 770.818.6305</h5>
           </Col>
         </Row>
       </Container>
