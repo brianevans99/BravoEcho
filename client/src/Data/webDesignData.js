@@ -3,7 +3,7 @@ import kentFawcett from '../assets/images/kentFawcett.jpg'
 import georgiaMentors from '../assets/images/georgiaMentors.jpg'
 import boysToMen from '../assets/images/boysToMen.jpg'
 import devConnector from '../assets/images/devConnector.jpg'
-// import resortHotel from '../assets/images/resortHotel.jpg'
+import resortHotel from '../assets/images/resortHotel1.jpg'
 
 export default [
   {
@@ -61,15 +61,15 @@ export default [
       "A social website with user authentication where web developers can create a personal profile and update school and work settings as needed. This site has a Facebook feel as logged in users can make comments on others' profile pages and 'like a post.",
     link: 'https://developer-react.herokuapp.com',
   },
-  // {
-  // id: 6,
-  // img: resortHotel,
-  // imgAlt: 'Resort Hotel',
-  // title: 'Resort Hotel',
-  // theNeed:
-  //   'A website that displays all the room options a hotel has to offer, with a sleek design and low impact code design for navigation speed.',
-  // theSolution:
-  //   'Here we have a high-end, contemporary design website where rooms can be sorted and displayed by user preferences.  The database on the backend can be easily managed by the hotel owner as details about rooms changes, like updating prices or setting rate specials during a promotional period.',
-  // link: 'https://reactresort.herokuapp.com',
-  // },
+  {
+    id: 6,
+    img: resortHotel,
+    imgAlt: 'Resort Hotel',
+    title: 'Resort Hotel',
+    theNeed:
+      'A website that displays all the room options a hotel has to offer, with a sleek design and low impact code design for navigation speed.',
+    theSolution:
+      'Here we have a high-end, contemporary design website where rooms can be sorted and displayed by user preferences.  The database on the backend can be easily managed by the hotel owner as details about rooms changes, like updating prices or setting rate specials during a promotional period.',
+    link: 'https://reactresort.herokuapp.com',
+  },
 ]
