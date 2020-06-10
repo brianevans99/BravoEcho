@@ -8,6 +8,7 @@ import Designs from './Pages/Designs/Designs'
 import Marketing from './Pages/Marketing/Marketing'
 import Pricing from './Pages/Pricing/Pricing'
 import Contact from './Pages/Contact/Contact'
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy'
 import NotFound from './Pages/NotFound/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
@@ -24,6 +25,7 @@ function App() {
           <Route path='/marketing' component={Marketing} />
           <Route path='/pricing' component={Pricing} />
           <Route path='/contact' component={Contact} />
+          <Route path='/privacy' component={PrivacyPolicy} />
           <Route component={NotFound} />
         </Switch>
       </Router>

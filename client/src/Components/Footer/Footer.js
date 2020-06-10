@@ -38,6 +38,9 @@ export default class Footer extends Component {
             className='d-flex flex-column justify-content-center align-items-center'
           >
             <h5>Contact: 770.818.6305</h5>
+            <small>
+              <a href='/privacy'>Privacy Policy</a>
+            </small>
           </Col>
         </Row>
       </Container>
