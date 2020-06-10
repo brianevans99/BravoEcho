@@ -14,7 +14,13 @@ const theme = {
   lineHeight: 1.1,
 }
 
-const Styles = styled.div``
+const Styles = styled.div`
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  :hover {
+    transform: scale(1.05);
+  }
+`
 
 export default function WebDesign(props) {
   return (
