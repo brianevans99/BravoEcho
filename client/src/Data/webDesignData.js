@@ -56,7 +56,7 @@ export default [
     imgAlt: 'Developer Connector',
     title: 'Developer Connector',
     theNeed:
-      'A place where web developers can meet and discover other developers and there talents, where they work and what projects they are working on.',
+      'A place where web developers can meet and discover other developers and their talents, where they work and what projects they are working on.',
     theSolution:
       "A social website with user authentication where web developers can create a personal profile and update school and work settings as needed. This site has a Facebook feel as logged in users can make comments on others' profile pages and 'like a post.",
     link: 'https://developer-react.herokuapp.com',
