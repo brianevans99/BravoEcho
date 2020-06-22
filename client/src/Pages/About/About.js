@@ -16,6 +16,10 @@ const Styles = styled.div`
   left: 0;
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
+
+  .container-fluid {
+    height: 100%;
+  }
 `
 
 export default class About extends Component {
@@ -104,9 +108,9 @@ export default class About extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Footer />
             </Row>
           </Container>
+          <Footer />
         </Styles>
       </Fragment>
     )

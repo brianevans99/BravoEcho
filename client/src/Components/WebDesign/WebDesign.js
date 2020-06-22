@@ -12,6 +12,7 @@ const theme = {
   width: '20rem',
   margin: '10px 20px',
   lineHeight: 1.1,
+  minHeight: '480px',
 }
 
 const Styles = styled.div`
@@ -26,7 +27,11 @@ export default function WebDesign(props) {
   return (
     <Styles>
       <Card
-        style={{ width: theme.width, margin: theme.margin }}
+        style={{
+          width: theme.width,
+          margin: theme.margin,
+          minHeight: theme.minHeight,
+        }}
         className='bg-light text-dark'
       >
         <a href={props.item.link} target='_blank' rel='noopener noreferrer'>

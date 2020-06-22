@@ -18,7 +18,7 @@ const footerImg = {
 export default class Footer extends Component {
   render() {
     return (
-      <Container fluid className=''>
+      <Container>
         <Row style={rowStyle}>
           <Col
             md={4}
