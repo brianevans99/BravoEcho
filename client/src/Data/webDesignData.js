@@ -28,17 +28,17 @@ export default [
       'A classy blog-style website where vendors can retrieve information and also view the latest trends in home fashion.',
     link: 'http://www.kentfawcett.com',
   },
-  // {
-  //   id: 3,
-  //   img: georgiaMentors,
-  //   imgAlt: 'Georgia Mentors',
-  //   title: 'Georgia Mentors',
-  //   theNeed:
-  //     'A business owner needs an updated, easy-to-navigate website to provide validity to her business.',
-  //   theSolution:
-  //     'Develop a minimalist layout design that provides all pertinent business information in concise format, including client testimonials.',
-  //   link: 'http://www.georgiamentors.com',
-  // },
+  {
+    id: 3,
+    img: georgiaMentors,
+    imgAlt: 'Georgia Mentors',
+    title: 'Georgia Mentors',
+    theNeed:
+      'A business owner needs an updated, easy-to-navigate website to provide validity to her business.',
+    theSolution:
+      'Develop a minimalist layout design that provides all pertinent business information in concise format, including client testimonials.',
+    link: 'http://www.georgiamentors.com',
+  },
   {
     id: 4,
     img: boysToMen,
