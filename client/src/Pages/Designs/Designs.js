@@ -14,7 +14,6 @@ const Styles = styled.div`
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   .webItems {
     display: flex;
@@ -30,7 +29,7 @@ export default function Designs() {
   return (
     <Fragment>
       <Styles>
-        <div className='wrapper' id='design'></div>
+        <div className='' id='design'></div>
         <Container fluid>
           <Row className='py-3 d-flex flex-row align-items-center'>
             <Col className='d-flex justify-content-center' md={6}>

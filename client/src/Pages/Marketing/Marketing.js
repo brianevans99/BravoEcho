@@ -20,7 +20,6 @@ const Styles = styled.div`
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
 `
 
@@ -29,7 +28,7 @@ export default class Marketing extends Component {
     return (
       <Fragment>
         <Styles>
-          <div className='wrapper' id='design'></div>
+          <div className='' id='design'></div>
           <Container fluid>
             <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center' lg={6}>

@@ -16,7 +16,6 @@ const Styles = styled.div`
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   .packages {
     display: flex;
@@ -35,7 +34,7 @@ export default function Pricing() {
   ))
   return (
     <Fragment>
-      <div className='wrapper' id='design'></div>
+      <div className='' id='design'></div>
       <Styles>
         <Container fluid>
           <Row className='py-3 d-flex flex-row align-items-center'>
