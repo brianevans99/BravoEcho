@@ -4,6 +4,7 @@ import georgiaMentors from '../assets/images/georgiaMentors.jpg'
 import boysToMen from '../assets/images/boysToMen.jpg'
 import devConnector from '../assets/images/devConnector.jpg'
 import resortHotel from '../assets/images/resortHotel1.jpg'
+import tec from '../assets/images/travelExperienceCo.jpg'
 
 export default [
   {
@@ -30,15 +31,26 @@ export default [
   },
   {
     id: 3,
-    img: georgiaMentors,
-    imgAlt: 'Georgia Mentors',
-    title: 'Georgia Mentors',
+    img: tec,
+    imgAlt: 'Travel Experience Co.',
+    title: 'Travel Experience Co.',
     theNeed:
-      'A business owner needs an updated, easy-to-navigate website to provide validity to her business.',
+      'A client needs to upgrade their static, boring Wix website to a professional "I mean business" attitude website.',
     theSolution:
-      'Develop a minimalist layout design that provides all pertinent business information in concise format, including client testimonials.',
-    link: 'http://www.georgiamentors.com',
+      'A professionally upgraded, fast-loading, eye-catching myriad of colorful designs that states "my business is legit".',
+    link: 'http://www.travelexperienceco.com',
   },
+  // {
+  //   id: 3,
+  //   img: georgiaMentors,
+  //   imgAlt: 'Georgia Mentors',
+  //   title: 'Georgia Mentors',
+  //   theNeed:
+  //     'A business owner needs an updated, easy-to-navigate website to provide validity to her business.',
+  //   theSolution:
+  //     'Develop a minimalist layout design that provides all pertinent business information in concise format, including client testimonials.',
+  //   link: 'http://www.georgiamentors.com',
+  // },
   {
     id: 4,
     img: boysToMen,
