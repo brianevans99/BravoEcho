@@ -34,10 +34,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const design = document.querySelector('#design')
   // design.classList.add('fadeIn');
 
-  design.addEventListener('animationend', function () {
-    design.classList.add('fadeOutUp')
-    seoScroll()
-  })
+  design &&
+    design.addEventListener('animationend', function () {
+      design.classList.add('fadeOutUp')
+      seoScroll()
+    })
 })
 
 export default function TagLine(props) {

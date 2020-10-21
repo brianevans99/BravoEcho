@@ -12,7 +12,6 @@ class Blog extends Component {
   render() {
     return (
       <Fragment>
-        <div className='' id='design'></div>
         <Container>
           <Row className=' d-flex flex-row align-items-center'>
             <Col className='text-justify'>

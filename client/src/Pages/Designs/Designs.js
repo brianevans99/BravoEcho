@@ -9,12 +9,6 @@ import webDesignData from '../../Data/webDesignData'
 import styled from 'styled-components'
 
 const Styles = styled.div`
-  content: '';
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: absolute;
   .webItems {
     display: flex;
     justify-content: center;
@@ -29,7 +23,6 @@ export default function Designs() {
   return (
     <Fragment>
       <Styles>
-        <div className='' id='design'></div>
         <Container>
           <Row className='py-3 d-flex flex-row align-items-center'>
             <Col className='d-flex justify-content-center' md={6}>

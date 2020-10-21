@@ -11,12 +11,6 @@ import marketingData from '../../Data/marketingData'
 import webData from '../../Data/webData'
 
 const Styles = styled.div`
-  content: '';
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
   .packages {
     display: flex;
     flex-direction: row;
@@ -34,7 +28,6 @@ export default function Pricing() {
   ))
   return (
     <Fragment>
-      <div className='' id='design'></div>
       <Styles>
         <Container>
           <Row className='py-3 d-flex flex-row align-items-center'>
