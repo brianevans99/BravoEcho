@@ -29,7 +29,7 @@ export default class Marketing extends Component {
       <Fragment>
         <Styles>
           <div className='' id='design'></div>
-          <Container fluid>
+          <Container>
             <Row className='py-3 d-flex flex-row align-items-center'>
               <Col className='d-flex justify-content-center' lg={6}>
                 <h2 className='py-3 animated fadeIn text-center'>

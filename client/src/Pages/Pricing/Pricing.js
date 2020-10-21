@@ -36,7 +36,7 @@ export default function Pricing() {
     <Fragment>
       <div className='' id='design'></div>
       <Styles>
-        <Container fluid>
+        <Container>
           <Row className='py-3 d-flex flex-row align-items-center'>
             <Col className='d-flex justify-content-center' md={6}>
               <h2 className='py-3 animated fadeIn text-center'>
