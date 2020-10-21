@@ -58,6 +58,9 @@ export default class NavigationBar extends Component {
             <LinkContainer to='/contact'>
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
+            <LinkContainer to='/blog'>
+              <Nav.Link>Handle Your Business</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

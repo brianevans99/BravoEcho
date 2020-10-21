@@ -8,6 +8,7 @@ import Designs from './Pages/Designs/Designs'
 import Marketing from './Pages/Marketing/Marketing'
 import Pricing from './Pages/Pricing/Pricing'
 import Contact from './Pages/Contact/Contact'
+import Blog from './Pages/Blog/Blog'
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy'
 import NotFound from './Pages/NotFound/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,7 +16,7 @@ import './App.scss'
 
 function App() {
   return (
-    <Container fluid>
+    <Container>
       <Router>
         <NavigationBar />
         <Switch>
@@ -26,6 +27,7 @@ function App() {
           <Route path='/pricing' component={Pricing} />
           <Route path='/contact' component={Contact} />
           <Route path='/privacy' component={PrivacyPolicy} />
+          <Route path='/blog' component={Blog} />
           <Route component={NotFound} />
         </Switch>
       </Router>
