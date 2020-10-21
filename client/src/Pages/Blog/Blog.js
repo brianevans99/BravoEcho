@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Footer from '../../Components/Footer/Footer'
+import coffeeShop from '../../assets/images/coffeeShop.jpg'
 
 class Blog extends Component {
   state = {
@@ -25,17 +26,29 @@ class Blog extends Component {
           <Row>
             <Col className=''>
               <p>Published: October 18, 2020</p>
-              <h2>
-                5 Ways Small Business Owners Are Surviving and Thriving in 2020
-              </h2>
-              <p>In this article:</p>
-              <ul>
-                <li>Making smart use of social media</li>
-                <li>Finding customers in new places</li>
-                <li>Helping customers and employees feel safe and secure</li>
-                <li>Shifting their small businesses to an online model</li>
-                <li>Forming relationships in the community</li>
-              </ul>
+              <Row>
+                <Col lg={6}>
+                  <h2>
+                    5 Ways Small Business Owners Are Surviving and Thriving in
+                    2020
+                  </h2>
+                  <p>In this article:</p>
+                  <ul>
+                    <li>Making smart use of social media</li>
+                    <li>Finding customers in new places</li>
+                    <li>
+                      Helping customers and employees feel safe and secure
+                    </li>
+                    <li>Shifting their small businesses to an online model</li>
+                    <li>Forming relationships in the community</li>
+                  </ul>
+                </Col>
+                <Col lg={6}>
+                  <div>
+                    <img className='img-fluid' src={coffeeShop} alt='' />
+                  </div>
+                </Col>
+              </Row>
               <p>
                 The coronavirus pandemic has completely upended “business as
                 usual.” Many small business owners are struggling to survive as
@@ -138,6 +151,16 @@ class Blog extends Component {
                 Whatever your business needs to survive and thrive throughout
                 this pandemic, it is time to get started. Get involved in your
                 community, get creative, and expand your customer base today.
+              </p>
+              <p style={{ color: '#6e7f80' }}>
+                Business photo created by freepik -{' '}
+                <a
+                  href='https://www.freepik.com/photos/business'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  www.freepik.com
+                </a>
               </p>
             </Col>
           </Row>
