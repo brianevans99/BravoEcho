@@ -1,6 +1,5 @@
 import sidelinesGrille from '../assets/images/sidelinesGrille.jpg'
 import kentFawcett from '../assets/images/kentFawcett.jpg'
-import georgiaMentors from '../assets/images/georgiaMentors.jpg'
 import boysToMen from '../assets/images/boysToMen.jpg'
 import devConnector from '../assets/images/devConnector.jpg'
 import resortHotel from '../assets/images/resortHotel1.jpg'

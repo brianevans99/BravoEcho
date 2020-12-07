@@ -56,6 +56,8 @@ const Styles = styled.div`
     background-color: ${theme.black};
     ul {
       list-style: none;
+      width: 240px;
+      padding-left: 20px;
     }
   }
 `

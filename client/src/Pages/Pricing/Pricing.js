@@ -20,11 +20,11 @@ const Styles = styled.div`
 `
 
 export default function Pricing() {
-  const marketingItems = marketingData.map((item) => (
-    <MktPackage key={item.id} item={item} />
-  ))
   const webItems = webData.map((item) => (
     <WebPackage key={item.id} item={item} />
+  ))
+  const marketingItems = marketingData.map((item) => (
+    <MktPackage key={item.id} item={item} />
   ))
   return (
     <Fragment>
@@ -45,14 +45,14 @@ export default function Pricing() {
             </Col>
           </Row>
           <div className='d-flex justify-content-center'>
-            <h5>Marketing packages:</h5>
-          </div>
-          <div className='packages'>{marketingItems}</div>
-          <hr className='line' />
-          <div className='d-flex justify-content-center'>
-            <h5>Web design packages:</h5>
+            <h5>Website Design Packages:</h5>
           </div>
           <div className='packages'>{webItems}</div>
+          <hr className='line' />
+          <div className='d-flex justify-content-center'>
+            <h5>Website Marketing Packages:</h5>
+          </div>
+          <div className='packages'>{marketingItems}</div>
         </Container>
         <Footer />
       </Styles>
